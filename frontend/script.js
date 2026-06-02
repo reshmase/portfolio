@@ -1,6 +1,6 @@
 async function loadMessage() {
 
-    const response = await fetch("https://portfolio-9rts.onrender.com/api/http");
+    const response = await fetch("https://portfolio-9rts.onrender.com/api");
 
     const data = await response.json();
 
