@@ -50,18 +50,24 @@
         <p>Student at EASTC</p>
     </section>
 
-    <section>
-        <h2>Contact</h2>
+   <section>
+    <h2>Contact Me</h2>
 
-        <p>Email: mwango@gmail.com</p>
-        <p>Phone: +255 XXX XXX XXX</p>
-    </section>
+    <input type="text" id="name" placeholder="Your Name">
+    <br><br>
 
-    <button onclick="loadMessage()">
-        Load Message From Backend
+    <input type="email" id="email" placeholder="Your Email">
+    <br><br>
+
+    <textarea id="messageInput" placeholder="Your Message"></textarea>
+    <br><br>
+
+    <button onclick="sendMessage()">
+        Send Message
     </button>
 
-    <p id="message"></p>
+    <p id="response"></p>
+</section>
 
     <script src="script.js"></script>
 
