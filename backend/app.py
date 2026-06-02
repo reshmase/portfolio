@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/api')
 def home():
     return jsonify({
-        "message": "Hello from Flask Backend!"
+        "message": "Hello from flask backend!"
     })
 
 if __name__ == '__main__':
